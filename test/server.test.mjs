@@ -65,3 +65,22 @@ test('health check responds successfully', async t => {
   assert.equal(response.status, 200);
   assert.deepEqual(await response.json(), { status: 'ok' });
 });
+
+test('presentation routes and downloadable files work in production alongside the landing page', async t => {
+  const { url } = await fixture(t);
+  const home = await fetch(url + '/');
+  assert.equal(home.status, 200);
+  assert.match(await home.text(), /Gestão de agências de viagens/);
+  for (const route of ['/apresentacao', '/apresentacao/']) {
+    const response = await fetch(url + route);
+    assert.equal(response.status, 200);
+    assert.match(await response.text(), /Apresentação comercial/);
+  }
+  const pdf = await fetch(url + '/apresentacao/orbi-travel-apresentacao.pdf');
+  assert.equal(pdf.status, 200);
+  assert.equal(pdf.headers.get('content-type'), 'application/pdf');
+  assert.equal((await pdf.text()).slice(0, 5), '%PDF-');
+  const pptx = await fetch(url + '/apresentacao/orbi-travel-apresentacao.pptx');
+  assert.equal(pptx.status, 200);
+  assert.match(pptx.headers.get('content-type'), /presentationml.presentation/);
+});

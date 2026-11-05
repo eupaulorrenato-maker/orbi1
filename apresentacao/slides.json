@@ -1,0 +1,878 @@
+{
+  "title": "Orbi Travel — gestão que acompanha a viagem",
+  "version": "Novembro de 2026",
+  "objective": "Obter apoio institucional, aproximação com agências e avaliação de indicação do sistema, conforme validação e procedimentos do Sebrae.",
+  "slides": [
+    {
+      "id": "abertura",
+      "chapter": "O negócio",
+      "layout": "cover",
+      "eyebrow": "ORBI TRAVEL · APRESENTAÇÃO COMERCIAL",
+      "title": "A viagem vende.\nA gestão acompanha.",
+      "lead": "Clientes, reservas, passageiros e financeiro no contexto da viagem.",
+      "statement": "Uma proposta de gestão e validação com pequenas agências de Sergipe.",
+      "footer": "Software B2B em fase de validação · Conversa institucional",
+      "owner": "Paulo e Andersonn",
+      "seconds": 40,
+      "notes": "Abra com uma situação que o público reconheça: o grupo vende, o hotel cobra e os passageiros pagam em dias diferentes. O Orbi Travel busca organizar essa operação. O encontro tem uma saída concreta: avaliar aderência e combinar um próximo passo com empresários interessados. O destinatário ainda não foi confirmado por nome ou cargo. Não apresentar vínculo, sociedade ou compromisso do Sebrae como existente. A palavra empresa aqui se refere à iniciativa de negócio; situação jurídica, CNPJ e quadro societário não foram informados.",
+      "transition": "Antes de mostrar as telas, vamos explicar o negócio que estamos construindo."
+    },
+    {
+      "id": "quem-somos",
+      "chapter": "O negócio",
+      "layout": "cards",
+      "eyebrow": "01 / O QUE É O ORBI TRAVEL",
+      "title": "Um negócio de software.\nA operação da agência no centro.",
+      "lead": "O produto atende quem vende e executa viagens em grupo.",
+      "cards": [
+        {
+          "label": "O QUE ENTREGAMOS",
+          "title": "Gestão integrada",
+          "text": "Cadastro, reservas, passageiros, fornecedores e leitura financeira organizados por viagem."
+        },
+        {
+          "label": "QUEM CONTRATA",
+          "title": "Dono ou gestor",
+          "text": "Pequenas e médias agências que precisam consultar dados e acompanhar compromissos da operação."
+        },
+        {
+          "label": "COMO O NEGÓCIO FUNCIONA",
+          "title": "Assinatura mensal",
+          "text": "Modelo de software acessado pela internet. Preço, suporte e limites do plano ainda em definição."
+        }
+      ],
+      "footer": "Orbi Travel é a plataforma de gestão; a venda de pacotes turísticos fica com a agência.",
+      "owner": "Paulo",
+      "seconds": 55,
+      "notes": "Explique o comprador, o usuário e o produto sem siglas. A agência contrata o sistema; a equipe usa o cadastro e os controles no atendimento e na operação. O turista continua cliente da agência. A proposta de receita do Orbi é assinatura, não comissão comprovada por passagem ou venda de pacotes. O foco é o acompanhamento operacional e financeiro. Não apresentar dados de faturamento, número de clientes, registro da marca ou estrutura societária, pois não foram fornecidos.",
+      "transition": "Essa escolha de produto nasceu de uma operação concreta."
+    },
+    {
+      "id": "origem-equipe",
+      "chapter": "O negócio",
+      "layout": "people",
+      "eyebrow": "02 / ORIGEM E EXECUÇÃO",
+      "title": "A necessidade veio da rotina.\nO projeto ganhou duas frentes.",
+      "lead": "O ponto de partida foi a experiência relatada de uma agência que começou com viagens em grupo à Chapada Diamantina.",
+      "cards": [
+        {
+          "label": "PRODUTO E DESENVOLVIMENTO",
+          "title": "Andersonn Gonçalves",
+          "text": "Desenvolvimento do protótipo, demonstração das telas e articulação técnica."
+        },
+        {
+          "label": "ESTRATÉGIA E COMUNICAÇÃO",
+          "title": "Paulo Renato",
+          "text": "Posicionamento, conteúdo comercial, SEO, landing page e apresentação do negócio."
+        }
+      ],
+      "footer": "Origem e papéis conforme o relato da reunião de 04/11/2026.",
+      "owner": "Andersonn",
+      "seconds": 60,
+      "notes": "Conte a origem sem transformar o relato em pesquisa de mercado. Andersonn acompanhou a necessidade de um amigo e cliente com agência de viagens em grupo. A referência a 2013 pertence à história dessa agência, e não à idade do Orbi. Paulo conduz posicionamento e comunicação; Andersonn conduz o protótipo e a frente técnica. Essa divisão ajuda a explicar quem fala sobre negócio e quem responde sobre funcionamento. Ela não define participação societária ou dedicação exclusiva, pontos que não foram informados.",
+      "transition": "O público inicial vive uma operação com várias datas, pessoas e pagamentos."
+    },
+    {
+      "id": "publico",
+      "chapter": "O negócio",
+      "layout": "cards",
+      "eyebrow": "03 / QUEM VIVE ESSE PROBLEMA",
+      "title": "Começar com um público\nque conseguimos acompanhar.",
+      "lead": "Pequenas agências com viagens em grupo e um gestor próximo do atendimento e do caixa.",
+      "cards": [
+        {
+          "label": "ROTINA",
+          "title": "Muitas funções",
+          "text": "A mesma equipe vende, confirma passageiros, responde dúvidas e organiza fornecedores."
+        },
+        {
+          "label": "OPERAÇÃO",
+          "title": "Compromissos cruzados",
+          "text": "Clientes, hotéis, transporte e guias trabalham com valores e datas diferentes."
+        },
+        {
+          "label": "RECORTE INICIAL",
+          "title": "Sergipe",
+          "text": "Início local com acompanhamento próximo, aprendizado de uso e construção de portfólio."
+        }
+      ],
+      "footer": "Recorte de validação; tamanho do mercado e disposição a pagar ainda precisam de pesquisa.",
+      "owner": "Paulo",
+      "seconds": 50,
+      "notes": "Não tente atender todo tipo de empresa de turismo na primeira rodada. O recorte mais útil é uma agência com uma viagem em grupo que possa ser acompanhada do atendimento à leitura financeira. Uma operação em que o gestor participa do dia a dia facilita observar as tarefas e corrigir dificuldades. Sergipe é a prioridade registrada na reunião, com atuação nacional como possibilidade futura. Não há levantamento suficiente que quantifique as agências do estado ou comprove o problema em todas elas.",
+      "transition": "Vamos acompanhar um dia ilustrativo dessa agência."
+    },
+    {
+      "id": "cotidiano",
+      "chapter": "O problema",
+      "layout": "timeline",
+      "eyebrow": "04 / O COTIDIANO DO CLIENTE",
+      "title": "Uma manhã. Quatro pedidos.\nA mesma informação espalhada.",
+      "lead": "Cenário ilustrativo: uma viagem em grupo, uma equipe pequena e várias conferências manuais.",
+      "cards": [
+        {
+          "label": "08H30",
+          "title": "O cliente pergunta",
+          "text": "Minha reserva está confirmada? Ainda falta alguma parcela?"
+        },
+        {
+          "label": "09H00",
+          "title": "O hotel pede",
+          "text": "Quantos hóspedes estão confirmados? Como ficaram os quartos?"
+        },
+        {
+          "label": "10H00",
+          "title": "O transporte cobra",
+          "text": "A próxima parcela vence hoje. Quem confere o compromisso?"
+        },
+        {
+          "label": "11H00",
+          "title": "O gestor decide",
+          "text": "Quanto essa viagem vendeu? Quanto falta receber? Qual é o resultado?"
+        }
+      ],
+      "footer": "As situações vêm das dores relatadas; não representam medição de uma empresa específica.",
+      "owner": "Paulo",
+      "seconds": 65,
+      "notes": "Leia as quatro solicitações como um encadeamento. Uma atualização no passageiro muda a ocupação e pode alterar a hospedagem. Um recebimento registrado muda o saldo do cliente; isso não muda automaticamente o vencimento do fornecedor. Sem um contexto compartilhado, a equipe precisa juntar a informação antes de responder. O ponto não é o uso de WhatsApp em si, mas a necessidade de reconstruir dados em vários controles. Pergunte se o cenário aparece nas agências que a pessoa conhece e registre o vocabulário usado.",
+      "transition": "Esses pedidos revelam gargalos operacionais, e não somente falta de uma tela."
+    },
+    {
+      "id": "gargalos",
+      "chapter": "O problema",
+      "layout": "bottlenecks",
+      "eyebrow": "05 / ONDE A ROTINA TRAVA",
+      "title": "O dado se perde.\nA decisão chega atrasada.",
+      "lead": "Quatro gargalos conectam retrabalho, atendimento e leitura financeira.",
+      "cards": [
+        {
+          "label": "DADO DISPERSO",
+          "title": "Cadastros repetidos",
+          "text": "A equipe pede novamente o que já foi informado em outra viagem."
+        },
+        {
+          "label": "RESERVA SEM CONTEXTO",
+          "title": "Lista desatualizada",
+          "text": "Confirmados e pendências de pagamento ficam difíceis de conferir."
+        },
+        {
+          "label": "AGENDA FRAGMENTADA",
+          "title": "Prazo sem visibilidade",
+          "text": "O compromisso do fornecedor aparece fora da leitura dos recebimentos."
+        },
+        {
+          "label": "CONTAS MISTURADAS",
+          "title": "Venda vira “saldo”",
+          "text": "O gestor confunde valor vendido, dinheiro recebido e resultado estimado."
+        }
+      ],
+      "footer": "Hipóteses de dor que o projeto pretende observar e medir no uso acompanhado.",
+      "owner": "Paulo",
+      "seconds": 65,
+      "notes": "Mostre causa e consequência. Dado repetido exige conferência; conferência manual pode deixar a lista antiga; lista antiga compromete a operação; leitura de caixa sem datas prejudica a decisão. Não anuncie perdas financeiras ou horas economizadas sem medição. O projeto busca diminuir esses pontos de atrito, mas o benefício ainda precisa ser validado. Se o empresário já tiver um sistema que resolva o fluxo, a conversa deve investigar onde ainda existe dificuldade, sem desqualificar soluções concorrentes.",
+      "transition": "O gargalo mais perigoso aparece quando venda, recebimento e resultado viram a mesma coisa."
+    },
+    {
+      "id": "tres-numeros",
+      "chapter": "O problema",
+      "layout": "stats",
+      "eyebrow": "06 / O PROBLEMA FINANCEIRO EM UMA VIAGEM",
+      "title": "Vendeu bem.\nIsso ainda não explica o caixa.",
+      "lead": "No exemplo Brasília Cultural, três perguntas levam a três números diferentes.",
+      "cards": [
+        {
+          "label": "QUANTO FOI VENDIDO?",
+          "number": "R$ 352.800",
+          "title": "Vendas confirmadas",
+          "text": "144 passageiros × R$ 2.450."
+        },
+        {
+          "label": "QUANTO FOI RECEBIDO?",
+          "number": "R$ 320.400",
+          "title": "Pago pelos clientes",
+          "text": "Ainda há R$ 32.400 a receber."
+        },
+        {
+          "label": "QUAL É O CUSTO?",
+          "number": "R$ 220.600",
+          "title": "Custos registrados",
+          "text": "Transporte, hospedagem e guia."
+        }
+      ],
+      "footer": "Valores ilustrativos do protótipo. Não representam receita ou resultado do Orbi Travel.",
+      "owner": "Paulo",
+      "seconds": 65,
+      "notes": "Aponte o mesmo exemplo que será usado nos próximos slides. As vendas confirmadas resultam da quantidade de passageiros e do preço. Os pagamentos registrados são menores que as vendas, e os custos incluem compromissos com fornecedores. O valor de custo registrado não informa sozinho quanto já foi pago. Essa distinção prepara a leitura da solução: o gestor precisa consultar reservas, recebimentos e obrigações sem tratar um deles como substituto dos outros.",
+      "transition": "A proposta do Orbi é manter essas leituras ligadas à mesma viagem."
+    },
+    {
+      "id": "modelo-produto",
+      "chapter": "A solução",
+      "layout": "hub",
+      "eyebrow": "07 / COMO O PRODUTO ORGANIZA O TRABALHO",
+      "title": "A viagem vira o contexto\nque conecta a operação.",
+      "lead": "Um cadastro reutilizável alimenta reservas, passageiros, fornecedores e leitura financeira.",
+      "cards": [
+        {
+          "label": "ANTES DA VIAGEM",
+          "title": "Cliente e reserva",
+          "text": "Dados pessoais, responsável, passageiros e situação do pagamento."
+        },
+        {
+          "label": "NA EXECUÇÃO",
+          "title": "Grupo e fornecedores",
+          "text": "Capacidade, quartos, transporte, hospedagem, guia e manifesto."
+        },
+        {
+          "label": "NA GESTÃO",
+          "title": "Compromissos e resultado",
+          "text": "Vendas, recebimentos, custos, vencimentos e margem estimada."
+        }
+      ],
+      "statement": "VIAGEM · O CONTEXTO COMPARTILHADO",
+      "footer": "Modelo observado nas telas do protótipo; os fluxos completos ainda precisam de validação.",
+      "owner": "Andersonn",
+      "seconds": 65,
+      "notes": "Descreva o modelo mental, sem termos de banco de dados. A pessoa é cadastrada uma vez e participa das próximas viagens. A reserva liga os passageiros à viagem e mantém o contexto do pagamento. Os fornecedores entram na operação e nos compromissos. O financeiro resume registros do negócio, sem integração bancária comprovada. Os cadastros, abas e controles aparecem nas referências; o funcionamento completo do sistema autenticado não foi auditado nesta apresentação.",
+      "transition": "O efeito esperado é mudar a forma de consultar, atualizar e decidir."
+    },
+    {
+      "id": "antes-depois",
+      "chapter": "A solução",
+      "layout": "comparison",
+      "eyebrow": "08 / A MUDANÇA NO TRABALHO",
+      "title": "Menos reconstrução de dados.\nMais contexto na consulta.",
+      "lead": "A proposta acompanha as mesmas tarefas que já fazem parte do dia da agência.",
+      "cards": [
+        {
+          "label": "CENÁRIO A VALIDAR",
+          "title": "Controles dispersos",
+          "text": "Conferir conversas, planilhas e anotações antes de responder. Repetir o cadastro e refazer a lista do grupo."
+        },
+        {
+          "label": "FLUXO PROPOSTO NO ORBI",
+          "title": "Consulta pela viagem",
+          "text": "Abrir a viagem, verificar a reserva, consultar os passageiros e acompanhar os compromissos registrados."
+        }
+      ],
+      "statement": "O ganho de tempo será medido nas mesmas tarefas, antes e depois do uso.",
+      "footer": "Benefício esperado; ainda sem resultado quantitativo comprovado.",
+      "owner": "Paulo",
+      "seconds": 50,
+      "notes": "Compare tarefas, não promessas genéricas. O que será observado é o tempo e a qualidade do registro de uma reserva, da lista e da consulta financeira. Não há evidência de eliminação completa de planilhas ou de redução percentual no esforço. O cadastro precisa estar correto e a equipe precisa manter os lançamentos atualizados. Se o fluxo exigir cliques excessivos ou treinamento difícil, isso será anotado e corrigido na validação.",
+      "transition": "Vamos tornar essa mudança concreta com o atendimento de uma reserva."
+    },
+    {
+      "id": "atendimento",
+      "chapter": "A solução",
+      "layout": "journey",
+      "eyebrow": "09 / DO ATENDIMENTO À CONFIRMAÇÃO",
+      "title": "“Minha reserva está confirmada?”\nA resposta ganha contexto.",
+      "lead": "Fluxo ilustrativo de uso, baseado nas áreas documentadas do protótipo.",
+      "cards": [
+        {
+          "label": "1 · IDENTIFICAR",
+          "title": "Consultar o cliente",
+          "text": "Localizar nome e contato no cadastro já existente."
+        },
+        {
+          "label": "2 · CONFERIR",
+          "title": "Abrir a reserva",
+          "text": "Ver responsável, passageiros e situação da confirmação."
+        },
+        {
+          "label": "3 · RESPONDER",
+          "title": "Olhar o pagamento",
+          "text": "Conferir o que foi registrado e o que ainda está pendente."
+        }
+      ],
+      "footer": "O controle de Pix e cartão não comprova cobrança, conciliação ou baixa automática.",
+      "owner": "Andersonn",
+      "seconds": 60,
+      "notes": "A resposta ao cliente precisa combinar situação da reserva e do pagamento. A tela de reservas mostra grupos confirmados e aguardando pagamento, com responsável e passageiros. Use esse exemplo como roteiro de demonstração: buscar uma pessoa fictícia, abrir a reserva e consultar os valores. Evite dizer que basta um pagamento bancário ocorrer e o sistema atualizar sozinho; esse comportamento não foi comprovado. Reservas coletivas e mudanças de situação são pontos de teste antes de operação real.",
+      "transition": "A confirmação precisa chegar à operação do grupo."
+    },
+    {
+      "id": "operacao",
+      "chapter": "A solução",
+      "layout": "cards",
+      "eyebrow": "10 / DA CONFIRMAÇÃO À EXECUÇÃO",
+      "title": "O grupo muda.\nA operação precisa acompanhar.",
+      "lead": "Transporte, hospedagem e guia consultados no contexto da viagem.",
+      "cards": [
+        {
+          "label": "PASSAGEIROS",
+          "title": "Lista de confirmados",
+          "text": "Consultar quem viaja e os dados necessários à execução."
+        },
+        {
+          "label": "HOSPEDAGEM",
+          "title": "Organização de quartos",
+          "text": "Associar a acomodação e consultar o fornecedor vinculado."
+        },
+        {
+          "label": "DOCUMENTAÇÃO",
+          "title": "Manifesto do grupo",
+          "text": "Selecionar campos e usar as opções de CSV e PDF exibidas na interface."
+        }
+      ],
+      "footer": "Os botões de exportação estão documentados. A geração dos arquivos ainda precisa de teste.",
+      "owner": "Andersonn",
+      "seconds": 60,
+      "notes": "O ganho operacional esperado é reutilizar o que já foi registrado no atendimento. Transporte, hospedagem e guia aparecem em blocos próprios, seguidos da lista de passageiros e quartos. O manifesto permite escolher nome, documentos, nascimento e contato. Use dados fictícios na demonstração e selecione somente o necessário. Não apresentar check-in móvel como funcionalidade pronta. A reunião registrou essa possibilidade como trabalho a avaliar, e não como fluxo validado.",
+      "transition": "Depois da lista, o gestor precisa enxergar a conta da viagem."
+    },
+    {
+      "id": "resultado",
+      "chapter": "A solução",
+      "layout": "equation",
+      "eyebrow": "11 / RESULTADO DA VIAGEM",
+      "title": "A margem aparece\ncom os custos na conta.",
+      "lead": "Brasília Cultural · 144 passageiros confirmados · Valores ilustrativos.",
+      "cards": [
+        {
+          "label": "VENDAS CONFIRMADAS",
+          "number": "R$ 352.800",
+          "title": "Receita de vendas",
+          "text": "144 × R$ 2.450."
+        },
+        {
+          "label": "− CUSTOS REGISTRADOS",
+          "number": "R$ 220.600",
+          "title": "Fornecedores",
+          "text": "R$ 88.000 + R$ 124.000 + R$ 8.600."
+        },
+        {
+          "label": "= RESULTADO ESTIMADO",
+          "number": "R$ 132.200",
+          "title": "Margem de 37,5%",
+          "text": "Resultado ÷ vendas confirmadas."
+        }
+      ],
+      "footer": "Resultado estimado não representa saldo bancário nem dinheiro disponível.",
+      "owner": "Andersonn",
+      "seconds": 70,
+      "notes": "Explique a fórmula com calma. Transporte de R$ 88 mil, hotel de R$ 124 mil e guia de R$ 8,6 mil totalizam R$ 220,6 mil. Subtraindo esse custo de R$ 352,8 mil de vendas, o resultado é R$ 132,2 mil, com margem arredondada de 37,5%. O protótipo exibe um indicador de resultado realizado que ainda precisa de definição. Por esse motivo, a apresentação usa somente resultado estimado e explicita a fórmula. Não transformar esse exemplo em case de rentabilidade de um cliente.",
+      "transition": "Margem é uma leitura. Prazo de recebimento e pagamento é outra."
+    },
+    {
+      "id": "caixa",
+      "chapter": "A solução",
+      "layout": "cards",
+      "eyebrow": "12 / FINANCEIRO DA AGÊNCIA",
+      "title": "Uma viagem pode dar margem\ne ainda exigir atenção ao caixa.",
+      "lead": "O gestor precisa saber o que falta receber, o que vence e qual saldo foi registrado.",
+      "cards": [
+        {
+          "label": "CLIENTES",
+          "title": "A receber",
+          "text": "Parcelas e valores pendentes consultados conforme os registros."
+        },
+        {
+          "label": "FORNECEDORES E CARTÕES",
+          "title": "A pagar",
+          "text": "Compromissos e faturas organizados por vencimento."
+        },
+        {
+          "label": "VISÃO NO TEMPO",
+          "title": "Saldo projetado",
+          "text": "Saldo registrado + entradas previstas − saídas previstas."
+        }
+      ],
+      "footer": "O saldo da interface não é verificado pelo banco. A qualidade da previsão depende dos lançamentos.",
+      "owner": "Paulo",
+      "seconds": 60,
+      "notes": "Volte ao exemplo: R$ 32,4 mil ainda estão a receber de clientes. Os fornecedores têm seus próprios vencimentos, que não precisam coincidir com esses recebimentos. A leitura de caixa precisa observar as datas e o que foi efetivamente registrado, sem confundir valor vendido e dinheiro disponível. A captura de financeiro geral contém uma diferença de detalhamento das entradas que pede conferência. Não usar aquele saldo projetado como prova de exatidão do sistema ou retorno comercial.",
+      "transition": "A organização continua útil depois da volta do grupo."
+    },
+    {
+      "id": "relacionamento",
+      "chapter": "A solução",
+      "layout": "cards",
+      "eyebrow": "13 / DEPOIS DA VIAGEM",
+      "title": "O cliente volta.\nO histórico fica com a agência.",
+      "lead": "Cadastro reutilizável e avisos internos apoiam o próximo atendimento.",
+      "cards": [
+        {
+          "label": "CONTINUIDADE",
+          "title": "Dados já registrados",
+          "text": "Nome, contato e aniversário disponíveis nas próximas viagens."
+        },
+        {
+          "label": "RELACIONAMENTO",
+          "title": "Motivo de retomar contato",
+          "text": "Alertas internos ajudam a identificar aniversários e oportunidades de conversa."
+        },
+        {
+          "label": "DECISÃO HUMANA",
+          "title": "A equipe escolhe a ação",
+          "text": "O recurso mostrado não envia WhatsApp ou e-mail automaticamente."
+        }
+      ],
+      "footer": "Campanhas antecipadas de aniversário são uma ideia comercial, não um recurso demonstrado.",
+      "owner": "Paulo",
+      "seconds": 50,
+      "notes": "O cadastro é uma base de relacionamento e de atendimento. A equipe pode localizar dados existentes e evitar pedir a mesma informação de novo. Os avisos de aniversário aparecem como recurso interno, com verificação conforme o fuso da agência. Não chamar isso de automação completa de marketing. A ideia de abordar o cliente seis meses antes do aniversário veio da reunião, mas não aparece como funcionalidade comprovada. Não prometer aumento de recompra ou vendas antes de medir o uso.",
+      "transition": "Esse contexto precisa ser compartilhado com a equipe certa."
+    },
+    {
+      "id": "equipe-identidade",
+      "chapter": "A solução",
+      "layout": "cards",
+      "eyebrow": "14 / ADOÇÃO NA AGÊNCIA",
+      "title": "Uma operação compartilhada.\nA identidade continua sendo da agência.",
+      "lead": "Organização de dados, acesso da equipe e aparência fazem parte da experiência de uso.",
+      "cards": [
+        {
+          "label": "FORNECEDORES",
+          "title": "Cadastro reutilizável",
+          "text": "Hotéis, transportadoras, guias e restaurantes disponíveis nas próximas viagens."
+        },
+        {
+          "label": "EQUIPE",
+          "title": "Papéis e acesso financeiro",
+          "text": "Convites e controles de acesso aparecem nas configurações do protótipo."
+        },
+        {
+          "label": "IDENTIDADE",
+          "title": "Nome, marca e tema",
+          "text": "Logotipo da agência e quatro opções de aparência compartilhadas pela equipe."
+        }
+      ],
+      "footer": "O alcance real das permissões exige validação técnica antes de dados reais.",
+      "owner": "Andersonn",
+      "seconds": 50,
+      "notes": "O produto busca se encaixar na agência sem substituir sua marca. As telas mostram configurações de identidade e aparência. O convite de equipe não envia e-mail automaticamente: o link é compartilhado e a pessoa aceita com o e-mail convidado. As permissões financeiras precisam ser testadas nos perfis de administrador e operador. Uma chave visual na interface não é evidência suficiente de isolamento ou proteção do backend.",
+      "transition": "Esses recursos compõem uma proposta de assinatura, que ainda precisa de validação comercial."
+    },
+    {
+      "id": "modelo-receita",
+      "chapter": "O negócio",
+      "layout": "pricing",
+      "eyebrow": "15 / COMO PRETENDEMOS GERAR RECEITA",
+      "title": "Assinatura mensal.\nPreço e adoção serão testados juntos.",
+      "lead": "A faixa discutida na reunião é uma referência inicial de validação.",
+      "cards": [
+        {
+          "label": "FAIXA EM DISCUSSÃO",
+          "number": "R$ 150–200",
+          "title": "Por mês",
+          "text": "Preço final depende do escopo, suporte e avaliação dos empresários."
+        },
+        {
+          "label": "TESTE COMERCIAL",
+          "number": "7 dias",
+          "title": "Teste gratuito previsto",
+          "text": "Decisão comercial registrada; condições ainda em definição."
+        },
+        {
+          "label": "O QUE FALTA FECHAR",
+          "title": "Oferta contratável",
+          "text": "Limites do plano, implantação, suporte, cobrança e cancelamento."
+        }
+      ],
+      "footer": "Valores não constituem oferta final. O teste de sete dias é distinto do piloto acompanhado.",
+      "owner": "Paulo",
+      "seconds": 65,
+      "notes": "A faixa de R$ 150 a R$ 200 veio da reunião, sem pesquisa conclusiva de disposição a pagar. A proposta de assinatura precisa caber no esforço de suporte e no valor percebido pelo cliente. O teste de sete dias foi uma decisão comercial e não deve ser apresentado como obrigação legal. O piloto de 60 dias tem objetivo, suporte e custos próprios, ainda a combinar. Não há evidência de clientes pagantes, receita recorrente ou rentabilidade do negócio; esses números não serão preenchidos por projeção fictícia.",
+      "transition": "Conquistar o primeiro cliente exige mais que colocar uma página no ar."
+    },
+    {
+      "id": "entrada-mercado",
+      "chapter": "Viabilidade",
+      "layout": "journey",
+      "eyebrow": "16 / COMO COMEÇAR EM SERGIPE",
+      "title": "Proximidade no início.\nAprendizado antes da escala.",
+      "lead": "Plano de entrada proposto: identificar o perfil certo, demonstrar e acompanhar uma viagem.",
+      "cards": [
+        {
+          "label": "1 · OUVIR",
+          "title": "Diagnóstico da rotina",
+          "text": "Registrar tarefas, controles atuais, dificuldades e capacidade de atualização dos dados."
+        },
+        {
+          "label": "2 · DEMONSTRAR",
+          "title": "Mostrar o mesmo fluxo",
+          "text": "Usar dados fictícios e os cenários que a agência reconhece no cotidiano."
+        },
+        {
+          "label": "3 · ACOMPANHAR",
+          "title": "Aprender com o uso",
+          "text": "Orientar a equipe, anotar dificuldades e avaliar contratação após a experiência."
+        }
+      ],
+      "footer": "Landing page, conteúdo e indicação podem apoiar a captação; os canais ainda serão avaliados.",
+      "owner": "Paulo",
+      "seconds": 55,
+      "notes": "O início local permite observar a adoção sem presumir que uma ferramenta resolve a rotina sozinha. O contato começa com diagnóstico, segue à demonstração e à avaliação de uso. A landing page já tem uma implementação própria neste repositório, mas isso não significa que o produto autenticado esteja pronto ou que a aquisição esteja validada. SEO, conteúdo, indicação e eventos podem ser canais a testar. Taxa de conversão, custo de aquisição, retenção e viabilidade ainda precisam de dados reais.",
+      "transition": "A escolha do Orbi precisa ser explicada por encaixe, e não por superioridade sem prova."
+    },
+    {
+      "id": "diferenciais",
+      "chapter": "Viabilidade",
+      "layout": "cards",
+      "eyebrow": "17 / DIFERENCIAÇÃO A VALIDAR",
+      "title": "O diferencial precisa aparecer\nno trabalho do cliente.",
+      "lead": "Três hipóteses de valor que o uso acompanhado pode confirmar ou corrigir.",
+      "cards": [
+        {
+          "label": "ENCAIXE OPERACIONAL",
+          "title": "A viagem como contexto",
+          "text": "Dados e compromissos consultados na lógica de quem atende e executa grupos."
+        },
+        {
+          "label": "LEITURA FINANCEIRA",
+          "title": "Perguntas concretas",
+          "text": "Quem pagou, quanto falta receber, o que vence e qual é a margem estimada."
+        },
+        {
+          "label": "ADOÇÃO",
+          "title": "Orientação próxima",
+          "text": "Proposta de acompanhamento inicial, com registro das dúvidas e do esforço de suporte."
+        }
+      ],
+      "footer": "Sem estudo comparativo suficiente que comprove superioridade sobre outros sistemas.",
+      "owner": "Paulo",
+      "seconds": 50,
+      "notes": "Se houver a pergunta sobre concorrentes, reconheça a existência de outras ferramentas. O projeto precisa provar o encaixe na rotina do público e a viabilidade do suporte, não reivindicar exclusividade de recursos comuns. A hipótese de diferencial combina contexto da viagem, clareza das perguntas financeiras e acompanhamento de adoção. Os testes podem mostrar que algum fluxo já é bem atendido por outro sistema; esse resultado é útil ao posicionamento e ao recorte do produto.",
+      "transition": "Essa validação começa com transparência sobre o estágio atual."
+    },
+    {
+      "id": "estagio",
+      "chapter": "Viabilidade",
+      "layout": "maturity",
+      "eyebrow": "18 / ONDE ESTAMOS HOJE",
+      "title": "Há um protótipo documentado.\nO próximo marco é o uso validado.",
+      "lead": "A apresentação separa a interface disponível daquilo que ainda exige prova de funcionamento.",
+      "cards": [
+        {
+          "label": "BASE ATUAL",
+          "title": "Telas e proposta",
+          "text": "18 telas de referência, site público do protótipo e materiais comerciais organizados."
+        },
+        {
+          "label": "VALIDAÇÃO TÉCNICA",
+          "title": "Fluxos e acesso",
+          "text": "Reservas, pagamentos, fórmulas, exportações, celular e permissões precisam de testes completos."
+        },
+        {
+          "label": "VALIDAÇÃO COMERCIAL",
+          "title": "Uso e contratação",
+          "text": "Ainda faltam dados de clientes pagantes, retenção, suporte e disposição a pagar."
+        }
+      ],
+      "footer": "A landing page deste repositório não substitui o backend nem a auditoria do produto autenticado.",
+      "owner": "Andersonn",
+      "seconds": 65,
+      "notes": "Esta é a principal distinção de maturidade. A existência das telas demonstra intenção e interface, mas não valida todos os fluxos. O código disponível neste repositório é o da landing page e desta apresentação, não o backend original do protótipo. A inspeção anterior chegou somente às páginas públicas; as referências internas vieram dos prints. Antes de uso com dados reais, testar autenticação, isolamento por agência, permissões, cálculo, exportação, backup e recuperação. Caso não esteja pronto, a primeira rodada usa somente dados fictícios.",
+      "transition": "Por isso, propomos avançar por etapas com critérios claros."
+    },
+    {
+      "id": "evolucao",
+      "chapter": "Viabilidade",
+      "layout": "journey",
+      "eyebrow": "19 / COMO AVANÇAR SEM PULAR ETAPAS",
+      "title": "Preparar. Observar.\nDecidir com evidência.",
+      "lead": "Roteiro proposto de evolução, sujeito à capacidade técnica e ao acordo com as agências.",
+      "cards": [
+        {
+          "label": "ETAPA 1",
+          "title": "Preparação técnica",
+          "text": "Conferir fluxos, cálculos, acessos, recuperação e condições de tratamento dos dados."
+        },
+        {
+          "label": "ETAPA 2",
+          "title": "Uso acompanhado",
+          "text": "Orientar uma viagem escolhida, medir tarefas e corrigir dificuldades observadas."
+        },
+        {
+          "label": "ETAPA 3",
+          "title": "Oferta e continuidade",
+          "text": "Definir plano, suporte e critérios comerciais com o aprendizado coletado."
+        }
+      ],
+      "footer": "A passagem de etapa depende das verificações; datas de entrega ainda não foram pactuadas.",
+      "owner": "Andersonn",
+      "seconds": 55,
+      "notes": "O cronograma não começa com dados reais por conveniência comercial. Primeiro é preciso confirmar as condições mínimas da operação. Depois, observar o uso e dimensionar o esforço de suporte. Por último, refinar oferta e continuidade. Não adicionar promessa de integração bancária, check-in móvel ou disparo automático ao escopo sem orçamento e validação. Também não declarar conformidade jurídica ou segurança auditada apenas com base em uma lista de intenções.",
+      "transition": "É nesse caminho de validação que buscamos uma conversa com o Sebrae."
+    },
+    {
+      "id": "pedido-sebrae",
+      "chapter": "A proposta",
+      "layout": "ask",
+      "eyebrow": "20 / O QUE BUSCAMOS NESTA CONVERSA",
+      "title": "Apoio institucional. Acesso a agências.\nUm caminho de indicação.",
+      "lead": "Três pedidos concretos, com responsabilidades e critérios de continuidade.",
+      "cards": [
+        {
+          "label": "1 · APOIAR A VALIDAÇÃO",
+          "title": "Orientação institucional",
+          "text": "Avaliar aderência, indicar a área responsável e orientar os requisitos de continuidade."
+        },
+        {
+          "label": "2 · APROXIMAR AGÊNCIAS",
+          "title": "Demonstração com interessados",
+          "text": "Facilitar uma conversa com empresários que manifestem interesse, sem transferência de base de contatos."
+        },
+        {
+          "label": "3 · AVALIAR INDICAÇÃO",
+          "title": "Avançar com evidência",
+          "text": "Considerar a indicação do sistema após a validação, conforme critérios e procedimentos institucionais."
+        }
+      ],
+      "footer": "Não há parceria, endosso, contratação ou financiamento institucional formalizado.",
+      "owner": "Paulo",
+      "seconds": 70,
+      "notes": "Paulo definiu expressamente o objetivo: apoio institucional, acesso a agências e indicação do sistema. Faça os três pedidos sem presumir aprovação. O primeiro é orientação sobre aderência e processo. O segundo é uma demonstração com empresários que manifestem interesse, sem solicitar a base de contatos. O terceiro é avaliar um caminho de indicação após a validação e conforme os critérios institucionais. A indicação não é um endosso já concedido. Nenhuma contratação, financiamento ou obrigação do Sebrae está definida. Se houver interesse, combinar o responsável, os requisitos e a próxima agenda. Não usar selo ou logotipo sem autorização.",
+      "transition": "Uma possibilidade concreta é um piloto pequeno, com começo e fim definidos."
+    },
+    {
+      "id": "piloto",
+      "chapter": "A proposta",
+      "layout": "pilot",
+      "eyebrow": "21 / UM DESENHO POSSÍVEL DE VALIDAÇÃO",
+      "title": "Cinco agências. Sessenta dias.\nUma viagem como referência.",
+      "lead": "Sugestão de piloto acompanhado, após preparação técnica. Escopo e condições sujeitos a acordo.",
+      "cards": [
+        {
+          "label": "DIAS 1–10",
+          "title": "Diagnóstico",
+          "text": "Escolher a viagem, registrar a rotina e medir as tarefas iniciais."
+        },
+        {
+          "label": "DIAS 11–20",
+          "title": "Configuração",
+          "text": "Preparar os dados e orientar a equipe no fluxo combinado."
+        },
+        {
+          "label": "DIAS 21–50",
+          "title": "Uso acompanhado",
+          "text": "Observar atualização, dúvidas, falhas e esforço de suporte."
+        },
+        {
+          "label": "DIAS 51–60",
+          "title": "Avaliação",
+          "text": "Repetir as medições e ouvir a decisão de continuidade."
+        }
+      ],
+      "footer": "Proposta, não compromisso aprovado. Custos, participantes, suporte e agenda ainda serão combinados.",
+      "owner": "Paulo",
+      "seconds": 70,
+      "notes": "Deixe a palavra sugestão visível. O número de cinco agências e a duração de 60 dias vieram de uma proposta anterior do assistente e não foram aprovados pelo usuário ou pela instituição. O piloto é diferente do teste comercial de sete dias. A viagem escolhida delimita a observação e evita tentar configurar toda a operação da empresa no primeiro dia. Os custos do piloto, quem paga, como o suporte funciona e as responsabilidades precisam ser combinados antes do início. Se houver falhas técnicas, usar somente dados fictícios até resolvê-las.",
+      "transition": "O piloto só vale se gerar uma decisão melhor ao final."
+    },
+    {
+      "id": "medicao",
+      "chapter": "A proposta",
+      "layout": "metrics",
+      "eyebrow": "22 / O QUE VAI CONTAR COMO APRENDIZADO",
+      "title": "Medir o trabalho real.\nDecidir o próximo passo.",
+      "lead": "A mesma tarefa, no mesmo recorte, antes e depois do uso acompanhado.",
+      "cards": [
+        {
+          "label": "ESFORÇO",
+          "title": "Tempo e retrabalho",
+          "text": "Minutos no registro da reserva, preparo da lista e consulta financeira."
+        },
+        {
+          "label": "USO",
+          "title": "Atualização e qualidade",
+          "text": "Semanas de uso, campos combinados completos e dúvidas registradas."
+        },
+        {
+          "label": "VALOR",
+          "title": "Utilidade e contratação",
+          "text": "Avaliação do gestor e disposição a contratar na faixa apresentada."
+        }
+      ],
+      "statement": "Continuar, ajustar ou interromper conforme critérios acordados antes do início.",
+      "footer": "Sem metas percentuais inventadas. Um grupo pequeno gera aprendizado, não prova de todo o mercado.",
+      "owner": "Paulo",
+      "seconds": 65,
+      "notes": "Defina o método antes de coletar. Cronometrar as mesmas tarefas com o mesmo tipo de viagem, registrar dúvidas e observar se os dados permanecem atualizados. A utilidade pode ser avaliada por nota de zero a dez com justificativa. A disposição a pagar pede uma resposta e a razão dela, sem presumir contratação. Os limites mínimos aceitáveis e o critério de continuidade serão acordados antes do piloto, não escolhidos depois dos resultados. Segurança, acesso e capacidade de recuperação são pré-requisitos técnicos; tempo, uso e percepção de valor orientam a avaliação comercial.",
+      "transition": "O desenho fica mais claro quando as responsabilidades estão separadas."
+    },
+    {
+      "id": "responsabilidades",
+      "chapter": "A proposta",
+      "layout": "cards",
+      "eyebrow": "23 / QUEM ASSUME QUAL TRABALHO",
+      "title": "A equipe Orbi executa.\nO formato institucional será acordado.",
+      "lead": "Distribuição sugerida de responsabilidades, sem transferir obrigações ao Sebrae.",
+      "cards": [
+        {
+          "label": "EQUIPE ORBI",
+          "title": "Produto e acompanhamento",
+          "text": "Preparação, orientação, suporte, correções e consolidação dos aprendizados."
+        },
+        {
+          "label": "AGÊNCIAS PARTICIPANTES",
+          "title": "Uso e avaliação",
+          "text": "Escolher a viagem, manter registros e relatar dificuldades da rotina."
+        },
+        {
+          "label": "SEBRAE · SE HOUVER ADERÊNCIA",
+          "title": "Orientação e articulação",
+          "text": "Avaliar aproximação com interessados e o caminho de indicação, conforme o processo institucional."
+        }
+      ],
+      "footer": "Condições financeiras, tratamento de dados, agenda e compromissos exigem acordo próprio.",
+      "owner": "Paulo",
+      "seconds": 55,
+      "notes": "A execução do produto e do suporte pertence à equipe Orbi. A agência precisa disponibilizar uma pessoa de referência e manter os dados combinados. A participação do Sebrae, se houver aderência, segue seu procedimento e não é presumida por esta apresentação. Antes de dados reais, definir autorização, retenção, exportação, exclusão e comunicação de incidentes. Caso a equipe não tenha capacidade de acompanhar cinco empresas simultaneamente, reduzir o grupo ou escalonar a entrada. A quantidade proposta não substitui a avaliação de capacidade.",
+      "transition": "Podemos sair desta conversa com uma próxima ação pequena e verificável."
+    },
+    {
+      "id": "proximo-passo",
+      "chapter": "A proposta",
+      "layout": "closing",
+      "eyebrow": "24 / A DECISÃO QUE BUSCAMOS",
+      "title": "Faz sentido testar esse recorte\ncom agências de Sergipe?",
+      "lead": "Apoio, aproximação e avaliação de indicação começam com um próximo passo concreto.",
+      "cards": [
+        {
+          "label": "UM INTERLOCUTOR",
+          "title": "Quem acompanha?",
+          "text": "Pessoa ou área responsável pela próxima conversa."
+        },
+        {
+          "label": "UM FORMATO",
+          "title": "Como demonstrar?",
+          "text": "Demonstração com interessados e critérios de avaliação do sistema."
+        },
+        {
+          "label": "UMA DATA",
+          "title": "Quando retornar?",
+          "text": "Prazo de resposta e material que precisa ser enviado."
+        }
+      ],
+      "statement": "Uma conversa orientada a uma decisão. Um produto avaliado na rotina real.",
+      "footer": "Orbi Travel · Paulo Renato e Andersonn Gonçalves",
+      "owner": "Paulo",
+      "seconds": 60,
+      "notes": "Faça a pergunta e dê espaço à resposta. O fechamento não é pedir ajuda de forma ampla, mas identificar aderência, interlocutor, formato e data. Se não houver aderência, pergunte qual recorte ou procedimento seria mais adequado. Caso surja uma hipótese de investimento ou contratação, registre a condição e combine uma proposta específica; este material não contém valuation, cap table, orçamento de captação ou oferta de participação. O envio do material a terceiros depende de orientação expressa do usuário e não acontece automaticamente.",
+      "transition": "Os próximos slides ficam como apoio às perguntas."
+    },
+    {
+      "id": "apoio-financeiro",
+      "chapter": "Apoio",
+      "layout": "cards",
+      "eyebrow": "APÊNDICE A / REGRAS FINANCEIRAS",
+      "title": "As definições precisam fechar\nantes da operação real.",
+      "lead": "Pontos de conferência registrados na análise do protótipo.",
+      "cards": [
+        {
+          "label": "RESULTADO",
+          "title": "Competência e caixa",
+          "text": "Definir o indicador “realizado” e distinguir venda, recebimento, custo e pagamento."
+        },
+        {
+          "label": "PROJEÇÃO",
+          "title": "Totais e detalhamento",
+          "text": "Conferir a diferença de R$ 252 mil observada nas categorias das entradas previstas."
+        },
+        {
+          "label": "FATURAS E REPASSES",
+          "title": "Evitar dupla contagem",
+          "text": "Testar despesa do fornecedor, fatura do cartão e valores recebidos em nome do guia."
+        }
+      ],
+      "footer": "A diferença de detalhamento é um ponto de investigação, não um bug confirmado.",
+      "owner": "Andersonn",
+      "seconds": 60,
+      "notes": "O resumo financeiro mostrou R$ 486.750 de entradas previstas, mas as perguntas rápidas listaram R$ 28.000 de repasses e R$ 206.750 de Pix, que somam R$ 234.750. A diferença é R$ 252.000; a captura não explica outras categorias ou recortes. O indicador de realizado também não tem definição suficiente. A comissão recebida em nome de guia aparece como entrada e repasse a pagar, segundo texto da interface, sem compor a receita da agência. O fluxo precisa ser testado. Despesa paga no cartão não pode duplicar custo ou saída ao contabilizar sua fatura.",
+      "transition": "A confiabilidade do uso envolve regras de dados e suporte."
+    },
+    {
+      "id": "apoio-operacao",
+      "chapter": "Apoio",
+      "layout": "cards",
+      "eyebrow": "APÊNDICE B / CONDIÇÕES DE USO",
+      "title": "Produto, dados e suporte\nprecisam de responsáveis claros.",
+      "lead": "Checklist de preparação, sem declaração de auditoria ou conformidade já concluída.",
+      "cards": [
+        {
+          "label": "ACESSO E RECUPERAÇÃO",
+          "title": "Validar tecnicamente",
+          "text": "Autenticação, separação por agência, permissões, backup e restauração."
+        },
+        {
+          "label": "DADOS DO CLIENTE",
+          "title": "Definir o tratamento",
+          "text": "Finalidade, autorização, retenção, exportação, correção e exclusão."
+        },
+        {
+          "label": "ATENDIMENTO",
+          "title": "Dimensionar o suporte",
+          "text": "Responsável, canal, horário, registro de falhas e prazo de resposta a acordar."
+        }
+      ],
+      "footer": "Sem dados reais até a confirmação dos pré-requisitos da operação escolhida.",
+      "owner": "Andersonn",
+      "seconds": 55,
+      "notes": "Nenhum item desta lista representa validação já feita no backend original. O repositório atual contém uma landing page com formulário, não o produto autenticado. Antes do piloto com dados reais, confirmar os fluxos de autenticação, segregação, acesso e recuperação. O atendimento precisa ter um responsável e uma capacidade compatível com o grupo. Segurança e proteção de dados não se resumem a textos de interface ou promessas no material comercial. Tratar falhas e limitações com transparência e definir o procedimento de resposta.",
+      "transition": "As perguntas comerciais têm respostas que dependem do estágio do negócio."
+    },
+    {
+      "id": "apoio-objecoes",
+      "chapter": "Apoio",
+      "layout": "cards",
+      "eyebrow": "APÊNDICE C / PERGUNTAS COMERCIAIS",
+      "title": "O que ainda precisamos provar\ncom o uso real?",
+      "lead": "Respostas diretas às questões que decidem viabilidade e contratação.",
+      "cards": [
+        {
+          "label": "“JÁ EXISTEM OUTROS SISTEMAS?”",
+          "title": "Sim. Vamos avaliar o encaixe.",
+          "text": "Não há comparação suficiente que prove superioridade. A escolha depende do fluxo e do suporte."
+        },
+        {
+          "label": "“A AGÊNCIA VAI PAGAR?”",
+          "title": "O preço será validado.",
+          "text": "A faixa é uma hipótese. Uso, utilidade e disposição a contratar serão registrados."
+        },
+        {
+          "label": "“O SEBRAE VAI INDICAR?”",
+          "title": "O caminho será avaliado.",
+          "text": "O pedido é avaliar a indicação após a validação, respeitando o processo e os critérios da instituição."
+        }
+      ],
+      "footer": "Sem promessa de retorno, metas de receita ou compromisso de investimento nesta proposta.",
+      "owner": "Paulo",
+      "seconds": 60,
+      "notes": "Se houver dúvida sobre retorno, esclareça que ainda não existem métricas de clientes pagantes ou redução de custos. Se o interesse for investimento, a proposta precisa de orçamento de uso dos recursos, projeções com hipóteses, custos de suporte e tecnologia, marcos, riscos, composição societária e condições de negociação. Esses dados não foram fornecidos e não serão inventados. Se o tema for contratação pelo Sebrae, a conversa precisa seguir o processo institucional aplicável. O representante não assume obrigação ao assistir à apresentação.",
+      "transition": "A última página registra a base documental e os limites do material."
+    },
+    {
+      "id": "fontes",
+      "chapter": "Apoio",
+      "layout": "sources",
+      "eyebrow": "APÊNDICE D / BASE E PREMISSAS",
+      "title": "Uma proposta com origem clara\ne limites explícitos.",
+      "lead": "Material de continuidade, preparado com os registros fornecidos pelo projeto.",
+      "cards": [
+        {
+          "label": "CONTEXTO",
+          "title": "Reunião de 04/11/2026",
+          "text": "Resumo fornecido por Paulo: origem, papéis, faixa de preço, teste e início em Sergipe."
+        },
+        {
+          "label": "PRODUTO",
+          "title": "18 telas e site público",
+          "text": "Referências do protótipo Orbit Hub / Orbi. Fluxos autenticados não foram auditados."
+        },
+        {
+          "label": "PROPOSTA",
+          "title": "Piloto e medição",
+          "text": "Desenho sujeito a acordo. Sem parceria formalizada ou resultados de clientes comprovados."
+        }
+      ],
+      "footer": "Protótipo: orbi-travel-hub.lovable.app · Documento: Orbi_Travel_Contexto_Completo_Codex.md",
+      "owner": "Paulo",
+      "seconds": 20,
+      "notes": "A apresentação se baseia no arquivo de contexto consolidado em 5 de novembro de 2026 e nas 18 imagens fornecidas pelo usuário. O site público do protótipo foi inspecionado na conversa de origem; isso não significa teste interno autenticado. O contexto contém pesquisa institucional anterior, mas esta versão evita apoiar sua tese em estatísticas ou programas com vigência não reconferida. Papéis, preço e teste vêm do relato. Metodologia, cronograma, métricas e divisão do piloto permanecem propostas. As telas desta apresentação são esquemas ilustrativos, não auditoria do produto. Reavaliar datas e condições antes de reutilizar o material.",
+      "transition": "Fim do material de apoio. Retome a decisão do próximo passo."
+    }
+  ]
+}

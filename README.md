@@ -62,6 +62,8 @@ Verificação visual e funcional com Chromium: larguras de 320, 375, 390, 700, 7
 
 ## Estrutura
 
+A apresentação comercial está em [`apresentacao/`](apresentacao/README.md), com página em `/apresentacao`, PDF, PowerPoint editável e roteiro de fala. Ela tem entrada própria no build, preservando a landing page.
+
 ```text
 src/main.js          Conteúdo e interações
 src/style.css        Layout e responsividade

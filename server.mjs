@@ -5,7 +5,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { randomUUID } from 'node:crypto';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
-const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg', '.ttf': 'font/ttf' };
+const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg', '.ttf': 'font/ttf', '.pdf': 'application/pdf', '.pptx': 'application/vnd.openxmlformats-officedocument.presentationml.presentation' };
 export async function createApp({ production = false, leadsDir = process.env.LEADS_DIR || path.join(root, '.data') } = {}) {
   const vite = production ? null : await (await import('vite')).createServer({ root, server: { middlewareMode: true }, appType: 'spa' });
   const attempts = new Map();
@@ -65,6 +65,7 @@ export async function createApp({ production = false, leadsDir = process.env.LEA
       let file = path.resolve(dist, '.' + relative);
       if (!file.startsWith(dist + path.sep) && file !== dist) { res.writeHead(403); return res.end(); }
       if (relative === '/') file = path.join(dist, 'index.html');
+      if (relative === '/apresentacao' || relative === '/apresentacao/') file = path.join(dist, 'apresentacao', 'index.html');
       const info = await stat(file);
       if (!info.isFile()) throw new Error('Not a file');
       res.writeHead(200, { 'Content-Type': types[path.extname(file)] || 'application/octet-stream', 'Cache-Control': file.includes('/assets/') ? 'public, max-age=31536000, immutable' : 'no-cache' });
