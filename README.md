@@ -2,6 +2,8 @@
 
 Landing page em português brasileiro, baseada no texto comercial e nas referências visuais do projeto. Paleta verde, areia e dourado; fontes Outfit e Plus Jakarta Sans servidas localmente.
 
+Leitura revisada: descrições com 16–18 px, controles e rótulos ampliados, texto verde-escuro e fundos suaves em verde-claro. A tipografia e o contraste estão concentrados em `src/readability.css`, preservando a composição visual original.
+
 ![Prévia da landing page](docs/landing-preview.png)
 
 ## Executar
@@ -56,13 +58,14 @@ npm test
 
 Os sete testes da API exercitam gravação real em diretório temporário, consentimento e campos inválidos, antispam, métodos e formatos, origem, tamanho, frequência, falha de armazenamento e health check.
 
-Verificação visual e funcional com Chromium: larguras de 320, 375, 390, 768, 1024, 1440 e 1920 pixels, sem rolagem horizontal; mapa por clique e teclado, abas, cores, FAQ, diálogo de privacidade, menu mobile e formulário com registro fictício fora do repositório. Nenhum erro JavaScript observado.
+Verificação visual e funcional com Chromium: larguras de 320, 375, 390, 700, 768, 950, 1024, 1280, 1440 e 1920 pixels, sem rolagem horizontal. Mapa, abas, diálogo de privacidade e menu mobile foram reconferidos após a revisão de legibilidade. Os textos principais medidos nas seções claras apresentam contraste superior a 6:1. O formulário e os demais controles foram validados na implementação inicial; nenhum erro JavaScript foi observado.
 
 ## Estrutura
 
 ```text
 src/main.js          Conteúdo e interações
 src/style.css        Layout e responsividade
+src/readability.css  Escala de leitura, contraste e ajustes responsivos
 src/brazil-map.svg   Mapa vetorial local
 public/             Fontes, imagens, favicon e licenças
 server.mjs          Servidor HTTP, arquivos de produção e API

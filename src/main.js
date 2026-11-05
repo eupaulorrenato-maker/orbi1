@@ -1,4 +1,5 @@
 import './style.css';
+import './readability.css';
 import brazilMap from './brazil-map.svg?raw';
 
 const paths = {

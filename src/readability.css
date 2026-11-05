@@ -1,0 +1,396 @@
+/* Reading scale and contrast are independent of the decorative dashboard miniature. */
+:root {
+  --cream: #f5f7f0;
+  --surface: #fffefa;
+  --ink: #123b2f;
+  --muted: #425847;
+  --border: #cbd5c6;
+  --text-body: 1.0625rem;
+  --text-small: .875rem;
+  --text-caption: .8125rem;
+}
+
+body { font-size: 17px; }
+p { line-height: 1.8; }
+h1, h2, h3 { font-weight: 600; }
+.serif-text { color: #47604b; }
+
+/* Navigation, buttons and supporting labels remain readable at every breakpoint. */
+.desktop-nav { margin-left: 0; gap: 25px; }
+.desktop-nav a { font-size: 14px; color: #314d3c; font-weight: 600; }
+.button, .button-small, .button-gold, .center-cta .button {
+  font-size: 15px;
+  min-height: 48px;
+}
+.button-small { font-size: 14px; gap: 16px; }
+.text-link, .faq-grid .text-link, .relationship-copy .text-link,
+.destinations-copy > .text-link { font-size: 15px; line-height: 1.7; }
+.eyebrow, .hero .eyebrow, .finance-copy .eyebrow,
+.relationship-copy .eyebrow, .contact-copy .eyebrow,
+.destinations-copy .eyebrow, dialog .eyebrow {
+  font-size: 12px;
+  line-height: 1.65;
+  letter-spacing: 1.6px;
+  color: #405a3d;
+}
+.eyebrow-light, .hero .eyebrow, .finance-copy .eyebrow,
+.contact-copy .eyebrow { color: #f0d8a5; }
+
+/* Landscape sections: light lettering on a consistently dark backdrop. */
+.hero-texture {
+  background: linear-gradient(90deg, #10392ff7 0%, #153c31ed 38%, #30483dba 75%, #324c3cc7 100%),
+    url('/images/mountains.jpg') center 53% / cover;
+}
+.hero-grid { min-height: 740px; }
+.hero-copy > p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #f3f6ec;
+  max-width: 470px;
+}
+.hero-actions { flex-wrap: wrap; gap: 20px; }
+.hero-actions .button { font-size: 15px; padding: 18px 22px; }
+.hero-actions .text-link { font-size: 15px; }
+.hero-note { font-size: 13px; line-height: 1.75; color: #e0e9d6; align-items: flex-start; }
+.hero-note .icon { width: 17px; height: 17px; margin-top: 3px; }
+.preview-caption { font-size: 11px; line-height: 1.7; flex-wrap: wrap; }
+.preview-caption > span:last-child { opacity: 1; }
+.hero-bottom > .container { font-size: 14px; min-height: 65px; height: auto; padding-top: 16px; padding-bottom: 16px; }
+.hero-bottom a { font-size: 11px; letter-spacing: 1px; }
+
+/* Light sections use green-tinted surfaces, with dark green body text. */
+.scope-strip { background: #e5ecdd; }
+.scope-strip > .container { flex-wrap: wrap; gap: 24px; padding-top: 24px; padding-bottom: 24px; }
+.scope-strip > .container > span { font-size: 14px; color: #425847; }
+.scope-strip .container > div { font-size: 14px; color: #284734; }
+.scope-strip .icon { color: #49653b; }
+.problem-copy, .problem-copy .problem-emphasis, .clarity-note p,
+.section-heading > p, .feature-item p, .relationship-copy p,
+.team-heading > p, .team-cards p, .steps p,
+.faq-grid > div:first-child > p, .faq-list details > p,
+.destinations-copy > p, dialog p {
+  font-size: var(--text-body);
+  color: var(--muted);
+  line-height: 1.8;
+}
+.problem-copy .problem-emphasis { color: #173e2c; font-weight: 700; }
+.problem-grid { gap: 65px; }
+.clarity-note { gap: 18px; flex-wrap: wrap; }
+.clarity-note > span { font-size: 12px; color: #405a3d; line-height: 1.8; }
+.section-heading { gap: 65px; }
+.section-heading > p { max-width: 420px; }
+.feature-layout { gap: 55px; align-items: start; }
+.feature-list { gap: 30px; }
+.feature-item h3 { font-size: 25px; line-height: 1.25; }
+.feature-item p { max-width: none; }
+.feature-number { font-size: 13px; color: #536548; }
+.feature-icon { background: #e7eddc; border-color: #c6d1b9; color: #3c5b2e; }
+.finance-grid { gap: 70px; }
+.finance-copy > p, .contact-copy > p {
+  font-size: 18px;
+  color: #f0f4e9;
+  max-width: 460px;
+  line-height: 1.8;
+}
+.check-list li { font-size: 16px; line-height: 1.7; color: #f0f4e9; }
+.finance-copy > small { font-size: 13px; line-height: 1.8; color: #dde7d2; max-width: 420px; }
+.floating-note { font-size: 14px; line-height: 1.7; white-space: normal; }
+.finance-card { transform: none; }
+.finance-card-top { flex-wrap: wrap; }
+.finance-card-top > span:first-child { font-size: 15px; }
+.pill { font-size: 11px; color: #5b512e; }
+.balance > span, .balance > span:last-child { font-size: 14px; color: #425847; }
+.balance strong { font-weight: 600; }
+.balance strong > span { color: #47604b; }
+.cash-summary { flex-wrap: wrap; gap: 22px; }
+.cash-summary p { font-size: 13px; color: #425847; }
+.cash-summary strong { font-size: 17px; }
+.cash-summary > div:last-child strong { color: #805724; }
+.chart { padding-left: 40px; }
+.chart-lines { font-size: 11px; color: #4c6040; }
+.chart-dates { font-size: 10px; color: #4c6040; letter-spacing: 0; margin-left: 40px; flex-wrap: wrap; gap: 10px; }
+.finance-disclaimer { font-size: 12px; color: #425847; line-height: 1.8; }
+
+/* Interactive product preview: labels, badges and notes are real reading content. */
+.demo-bar { font-size: 11px; color: #314d3c; flex-wrap: wrap; gap: 8px; }
+.demo-bar > span:last-child { font-size: 12px; color: #43563b; }
+.demo-trip-header { background-color: #123b2f; }
+.demo-destination { font-size: 12px; color: #f2dcaf; }
+.demo-trip-header h3 { font-size: 34px; }
+.demo-trip-header p { font-size: 14px; color: #edf3e5; }
+.demo-tabs > button { font-size: 15px; min-height: 48px; color: #45553d; }
+.demo-panel { min-height: 370px; }
+.demo-summary .status, .panel-section-title .status, .booking-row .status { font-size: 12px; padding: 6px 10px; }
+.demo-capacity { font-size: 13px; color: #42543a; }
+.summary-metrics > div > span { font-size: 14px; color: #42543a; }
+.summary-metrics strong { font-size: 30px; font-weight: 600; }
+.summary-metrics small { font-size: 12px; color: #42543a; line-height: 1.7; }
+.supplier { font-size: 13px; line-height: 1.75; gap: 18px; padding: 13px 0; }
+.supplier > span { color: #42543a; }
+.supplier strong { text-align: right; }
+.demo-bottom { font-size: 12px; line-height: 1.8; color: #42543a; }
+.panel-section-title { font-size: 15px; flex-wrap: wrap; }
+.booking-row strong { font-size: 15px; }
+.booking-row small, .booking-note { font-size: 12px; color: #42543a; line-height: 1.7; }
+.booking-row .avatar { width: 33px; height: 33px; font-size: 12px; }
+.demo-finance-grid > div > span { font-size: 13px; color: #42543a; }
+.demo-finance-grid strong { font-size: 27px; }
+.margin-note { font-size: 14px; }
+.demo-finance-note { font-size: 12px; color: #42543a; }
+
+/* Customers, team and questions. */
+.relationship-grid { gap: 70px; }
+.clients-visual { transform: none; }
+.clients-top { align-items: flex-start; }
+.clients-top h3 { font-size: 24px; }
+.clients-top p { font-size: 14px; color: #425847; line-height: 1.7; }
+.client-row strong { font-size: 17px; font-weight: 600; }
+.client-row small { font-size: 13px; color: #425847; line-height: 1.7; }
+.client-avatar { font-size: 13px; color: #39522a; }
+.client-avatar.lavender { color: #65466b; }
+.client-label { font-size: 11px; color: #4a5e3e; }
+.birthday-note strong { font-size: 16px; }
+.birthday-note p { font-size: 13px; color: #555a37; line-height: 1.7; }
+.clients-footnote { font-size: 12px; color: #425847; line-height: 1.7; }
+.team-section, .faq-section { background: #e7edde; border-color: #cbd5c6; }
+.team-heading { gap: 45px; }
+.team-heading > p { max-width: 420px; }
+.team-cards > article { background: #fffefa; }
+.team-cards h3 { font-size: 25px; line-height: 1.3; }
+.team-cards p { min-height: 0; }
+.tag-list { flex-wrap: wrap; gap: 8px; }
+.tag-list > span { font-size: 12px; color: #3c5230; padding: 7px 10px; }
+.member-preview { flex-wrap: wrap; gap: 4px; }
+.member-preview > span:last-child { font-size: 13px; color: #425847; }
+.theme-options { flex-wrap: wrap; gap: 9px; }
+.theme-swatch { width: 30px; height: 30px; }
+.theme-options > span { font-size: 13px; color: #425847; line-height: 1.7; }
+.step-line > span { font-size: 16px; color: #39522a; }
+.steps h3 { font-size: 26px; line-height: 1.3; }
+.steps p { max-width: none; }
+.faq-grid { gap: 70px; }
+.faq-grid > div:first-child > p { max-width: 380px; }
+.faq-list summary { font-size: 17px; font-weight: 600; line-height: 1.7; padding: 23px 0; }
+.faq-plus { width: 30px; height: 30px; background: #d8e2cb; border-color: #bdcbaa; }
+.faq-plus .icon { width: 17px; height: 17px; color: #3c5230; }
+
+/* Contact: readable field labels, placeholders, consent and feedback. */
+.contact-grid { gap: 75px; }
+.contact-promise { font-size: 15px; color: #edf3e5; }
+.contact-form-card { background: #fffefa; }
+.form-title { align-items: flex-start; }
+.form-title h3 { font-size: 30px; }
+.form-title p { font-size: 16px; color: #425847; }
+.form-row { grid-template-columns: 1fr; gap: 0; }
+form > label, .form-row > label { font-size: 14px; color: #294b34; font-weight: 600; }
+input:not([type="checkbox"]) {
+  font-size: 16px;
+  padding: 15px 13px;
+  color: #173e2c;
+  background: #f6f8f1;
+  border-color: #a8b69e;
+}
+input::placeholder { font-size: 14px; color: #526349; opacity: 1; }
+.consent { font-size: 13px !important; color: #425847 !important; line-height: 1.8; }
+.consent input { width: 18px; height: 18px; margin-top: 3px; }
+.consent .privacy-link { color: #214d36; }
+.form-submit { font-size: 15px; padding: 18px; }
+.form-note { font-size: 13px; color: #425847; line-height: 1.8; }
+.form-message { font-size: 15px; }
+.form-message.error { color: #9f3328; }
+.site-footer { background: #edf2e6; }
+.footer-top { flex-wrap: wrap; }
+.footer-top > p { font-size: 13px; color: #425847; }
+.footer-top nav { font-size: 14px; color: #294b34; }
+.footer-bottom, .footer-bottom > span:last-child { font-size: 12px; color: #425847; line-height: 1.7; }
+dialog { max-width: 620px; }
+dialog .button { font-size: 15px; }
+
+/* The map's fine print and destination controls are no longer miniature. */
+.destinations-section { background: #edf2e5; }
+.destinations-grid { column-gap: 60px; }
+.destinations-copy > p { max-width: 470px; }
+.destination-selector { max-width: 480px; }
+.destination-chip { font-size: 14px; min-height: 44px; color: #3a5232; border-color: #b5c3a8; }
+.map-visual { background-color: #f8f9f2; padding-top: 60px; }
+.map-corner { font-size: 13px; color: #34532c; }
+.map-corner > span { font-size: 10px; color: #42543a; letter-spacing: .5px; }
+.map-compass { font-size: 11px; color: #3c5732; }
+.map-caption { font-size: 12px; line-height: 1.8; flex-wrap: wrap; color: #42543a; margin-top: 10px; }
+.map-caption > span:last-child { font-size: 11px; color: #42543a; }
+.map-destination-card { top: 74px; width: 260px; }
+.map-destination-card > div > span { font-size: 10px; color: #5c5633; letter-spacing: .5px; }
+.map-destination-card h3 { font-size: 24px; }
+.map-destination-card p { font-size: 12px; color: #42543a; line-height: 1.7; }
+.destination-description { font-size: 15px; color: #425847; line-height: 1.8; }
+
+@media (max-width: 1190px) {
+  .hero-actions { align-items: flex-start; flex-direction: column; gap: 17px; }
+  .feature-layout, .finance-grid, .relationship-grid, .faq-grid, .contact-grid { gap: 40px; }
+  .section-heading, .team-heading { gap: 35px; }
+  .demo-panel { padding: 23px 20px; }
+  .summary-metrics { gap: 18px; }
+  .summary-metrics strong { font-size: 27px; }
+  .supplier { font-size: 12px; gap: 10px; }
+  .demo-finance-grid strong { font-size: 24px; }
+  .team-cards { grid-template-columns: repeat(2, 1fr); }
+  .team-cards > article:last-child { grid-column: 1 / -1; }
+}
+
+@media (max-width: 1050px) {
+  .desktop-nav { display: none; }
+  .menu-toggle { display: flex; min-width: 44px; min-height: 44px; align-items: center; justify-content: center; }
+  .mobile-nav > a { font-size: 16px; min-height: 44px; }
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-copy { max-width: 650px; margin: auto; text-align: center; }
+  .hero-copy .eyebrow { justify-content: center; }
+  .hero h1 { white-space: normal; }
+  .hero h1 > br, .hero h1 .desktop-break { display: none; }
+  .hero-copy > p { margin-left: auto; margin-right: auto; }
+  .hero-actions { justify-content: center; align-items: center; flex-direction: row; }
+  .hero-note { justify-content: center; }
+  .hero-preview { width: 100%; max-width: 716px; margin: auto; }
+  .product-window { width: 100%; transform: none; }
+  .preview-caption { width: 100%; }
+}
+
+@media (min-width: 701px) and (max-width: 950px) {
+  .section-heading { align-items: start; }
+  .section-heading > p { max-width: 280px; }
+  .feature-layout, .finance-grid, .relationship-grid { grid-template-columns: 1fr; gap: 42px; }
+  .interactive-preview, .finance-visual, .clients-visual { max-width: 620px; width: 100%; margin: auto; }
+  .feature-list { display: grid; grid-template-columns: 1fr 1fr; }
+  .finance-copy > p { max-width: 600px; }
+  .finance-copy h2 br:last-child { display: none; }
+  .relationship-copy { grid-row: 1; }
+  .faq-grid { grid-template-columns: 1fr; }
+  .contact-grid { gap: 32px; }
+  .contact-copy .eyebrow { font-size: 11px; }
+  .destinations-grid { grid-template-columns: 1fr; gap: 30px; }
+  .destinations-copy > p { max-width: 650px; }
+  .map-visual { justify-self: center; max-width: 550px; }
+}
+
+@media (max-width: 700px) {
+  :root { --text-body: 1rem; }
+  .hero-grid { min-height: 0; }
+  .hero-copy > p { font-size: 17px; max-width: 440px; }
+  .hero .eyebrow { font-size: 11px; }
+  .hero-actions { gap: 18px; }
+  .hero-actions .button { font-size: 14px; padding: 17px 19px; }
+  .hero-actions .text-link { font-size: 14px; }
+  .hero-note { font-size: 12px; text-align: left; }
+  .preview-caption { font-size: 10px; }
+  .preview-caption > span:last-child { font-size: 11px; }
+  .hero-bottom > .container { font-size: 13px; gap: 15px; }
+  .hero-bottom a { font-size: 10px; flex-shrink: 0; }
+  .scope-strip .container > div { font-size: 13px; line-height: 1.7; }
+  .problem-grid { gap: 25px; }
+  .clarity-note > .icon { margin-top: 4px; }
+  .clarity-note p { flex-basis: 80%; }
+  .section-heading > p, .team-heading > p, .faq-grid > div:first-child > p { max-width: none; }
+  .feature-layout, .finance-grid, .relationship-grid, .faq-grid, .contact-grid { gap: 32px; }
+  .feature-item h3 { font-size: 23px; }
+  .finance-copy > p, .contact-copy > p { font-size: 17px; }
+  .check-list li { font-size: 16px; }
+  .floating-note { font-size: 13px; transform: none; }
+  .finance-card-top > span:first-child { font-size: 14px; }
+  .finance-disclaimer { font-size: 12px; }
+  .balance > span, .balance > span:last-child { font-size: 13px; }
+  .cash-summary { gap: 18px; }
+  .cash-summary p { font-size: 12px; }
+  .cash-summary strong { font-size: 16px; }
+  .chart-dates { font-size: 9px; }
+  .demo-bar { font-size: 10px; letter-spacing: .8px; }
+  .demo-bar > span:last-child { font-size: 11px; }
+  .demo-tabs > button { font-size: 14px; padding-left: 14px; padding-right: 14px; }
+  .demo-panel { min-height: 370px; padding: 22px 18px; }
+  .demo-capacity { font-size: 12px; }
+  .summary-metrics { gap: 16px; }
+  .summary-metrics > div > span { font-size: 13px; }
+  .summary-metrics strong { font-size: 26px; }
+  .summary-metrics small { font-size: 12px; }
+  .supplier { font-size: 12px; gap: 15px; }
+  .supplier > span { flex-shrink: 0; }
+  .supplier strong { max-width: 56%; }
+  .demo-finance-grid { gap: 10px; }
+  .demo-finance-grid strong { font-size: 24px; }
+  .booking-row { flex-wrap: wrap; }
+  .booking-row strong { font-size: 14px; }
+  .booking-row small { font-size: 12px; }
+  .clients-top h3 { font-size: 22px; }
+  .clients-top p { font-size: 13px; }
+  .client-row { gap: 11px; }
+  .client-row strong { font-size: 16px; }
+  .client-row small { font-size: 12px; }
+  .client-label { font-size: 10px; }
+  .birthday-note strong { font-size: 15px; }
+  .birthday-note p { font-size: 13px; }
+  .clients-footnote { font-size: 12px; }
+  .team-cards { grid-template-columns: 1fr; }
+  .team-cards > article:last-child { grid-column: auto; }
+  .team-cards h3 { font-size: 25px; }
+  .theme-swatch { width: 34px; height: 34px; }
+  .theme-options > span { font-size: 13px; }
+  .member-preview > span:last-child { font-size: 13px; }
+  .steps h3 { font-size: 24px; }
+  .faq-list summary { font-size: 16px; }
+  .contact-promise { font-size: 14px; }
+  .form-title h3 { font-size: 28px; }
+  .form-title p { font-size: 16px; }
+  .form-row { grid-template-columns: 1fr; gap: 0; }
+  .form-submit { font-size: 14px; }
+  .footer-top nav { font-size: 14px; flex-wrap: wrap; }
+  .footer-bottom, .footer-bottom > span:last-child { font-size: 12px; }
+  .destinations-copy .eyebrow { font-size: 11px; }
+  .destination-chip { font-size: 14px; padding: 10px 14px; }
+  .map-visual { padding: 62px 20px 23px; }
+  .map-caption { font-size: 12px; }
+  .map-destination-card { width: 220px; top: 76px; }
+  .map-destination-card h3 { font-size: 22px; }
+  .map-destination-card > div > span { font-size: 10px; }
+  .map-destination-card p { font-size: 12px; }
+  .destination-description { font-size: 14px; }
+  dialog p { font-size: 16px; }
+}
+
+@media (max-width: 480px) {
+  .header-actions > .button { display: none; }
+  .brand > span { font-size: 31px; }
+  .brand .orbit-mark { width: 39px; }
+  .hero-bottom > .container { align-items: flex-start; }
+  .hero-bottom a { margin-top: 2px; }
+  .demo-summary > div:first-child { flex-wrap: wrap; gap: 10px; }
+  .summary-metrics, .demo-finance-grid { grid-template-columns: 1fr; gap: 17px; }
+  .summary-metrics { margin-bottom: 22px; }
+  .summary-metrics strong { font-size: 31px; }
+  .summary-metrics strong > span { font-size: 19px; }
+  .summary-metrics .progress { max-width: none; }
+  .demo-finance-grid strong { font-size: 30px; }
+  .booking-row > .status { margin-left: 43px; }
+  .client-label { display: none; }
+  .finance-card { padding: 23px 20px; }
+  .balance strong { font-size: 39px; }
+  .balance strong > span { font-size: 23px; }
+  .cash-summary { flex-direction: column; }
+  .chart-dates { display: grid; grid-template-columns: 1fr 1fr; }
+  .contact-form-card { padding: 27px 21px; }
+  .form-title .feature-icon { display: none; }
+  .map-destination-card { position: static; width: 100%; margin-top: 10px; transform: none; }
+}
+
+/* Keep even secondary captions readable instead of shrinking them on mobile. */
+.preview-caption, .preview-caption > span:last-child,
+.hero-bottom a, .map-corner > span, .map-compass,
+.map-destination-card > div > span, .map-caption > span:last-child,
+.demo-bar, .demo-bar > span:last-child, .pill, .chart-lines,
+.chart-dates, .client-label { font-size: 12px; }
+.member-preview .avatar { width: 32px; height: 32px; font-size: 12px; }
+.preview-caption > span:first-child { letter-spacing: .6px; }
+.map-corner > span { max-width: 230px; line-height: 1.5; }
+.map-compass > span { color: #4c6040; }
+@media (max-width: 700px) {
+  .hero .eyebrow, .contact-copy .eyebrow, .destinations-copy .eyebrow { font-size: 12px; }
+  .hero-bottom > .container { flex-wrap: wrap; }
+  .chart-dates { display: grid; grid-template-columns: 1fr 1fr; }
+}
